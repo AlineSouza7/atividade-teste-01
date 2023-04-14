@@ -47,7 +47,7 @@ public class PlaylistMusicaTest {
     }
 
     @Test
-    public void test_busca_musica_artita() {
+    public void test_busca_musica_artista() {
         test_adicionar_musica();
         List<Musica> listMusica = new ArrayList<>();
         listMusica.add(playlistMusica.getMusicas().get(0));
